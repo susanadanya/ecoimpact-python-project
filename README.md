@@ -42,4 +42,4 @@ The project focuses on encouraging responsible recycling by providing users with
 [![Device Selection](screenshots/02-device-selection.png)](https://github.com/susanadanya/ecoimpact-python-project/blob/main/Screenshots/02-device-selection.png)
 
 ### Recycling Recommendation
-![Recycling Result](screenshots/03-recycling-result.png)
+[![Recycling Result](screenshots/03-recycling-result.png)]
