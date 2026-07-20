@@ -1,22 +1,37 @@
-# EcoDispose Python Project
+# EcoImpact Python Project 🌱
 
 ## Overview
-EcoDispose is a Python program designed to help users understand how to dispose of electronic waste correctly.
+EcoImpact is a Python program created to help users understand how to dispose of electronic waste (WEEE - Waste Electrical and Electronic Equipment) correctly.
+
+The project focuses on encouraging responsible recycling by providing users with disposal recommendations based on the electronic item they enter.
+
+## Project Objectives
+- Create a simple Python application
+- Apply programming logic to solve a real-world problem
+- Improve awareness of electronic waste recycling
 
 ## Features
-- Takes user input
-- Categorises electronic items
-- Provides disposal recommendations
+- User input collection
+- Item categorisation
+- Conditional statements to provide recommendations
+- Clear outputs for the user
 
 ## Technologies Used
-- Python
+- Python 3
 
 ## Skills Demonstrated
-- Variables
-- If statements
-- Functions
-- Problem solving
+- Variables and data types
+- User input
+- Conditional statements (if/elif/else)
+- Problem-solving
+- Debugging
+- Basic software development practices
 
 ## Future Improvements
-- Add a database of recycling locations
-- Create a user interface
+- Add a graphical user interface (GUI)
+- Include a larger database of electronic items
+- Add recycling location information
+- Store user responses for analysis
+
+## Author
+Susan Idieho
