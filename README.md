@@ -36,7 +36,7 @@ The project focuses on encouraging responsible recycling by providing users with
 ## Program Demonstration
 
 ### Borough Input
-![Borough Input](screenshots/01-borough-input.png)
+[![Borough Input](screenshots/01-borough-input.png)](https://github.com/susanadanya/ecoimpact-python-project/blob/main/Screenshots/01-borough-input.png)
 
 ### Device Selection
 ![Device Selection](screenshots/02-device-selection.png)
