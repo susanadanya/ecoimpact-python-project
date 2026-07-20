@@ -37,11 +37,11 @@ The project focuses on encouraging responsible recycling by providing users with
 
 Below are screenshots showing the EcoDispose program in action.
 
-### 1. Borough Input
+### Borough Input
 ![Borough Input](screenshots/01-borough-input.png)
 
-### 2. Device Selection
+### Device Selection
 ![Device Selection](screenshots/02-device-selection.png)
 
-### 3. Recycling Recommendation
+### Recycling Recommendation
 ![Recycling Result](screenshots/03-recycling-result.png)
