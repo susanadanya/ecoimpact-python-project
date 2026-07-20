@@ -1,94 +1,147 @@
 # Welcome users to EcoImpact and show privacy policy
 
-print("==========================================")
-print("🌍 ♻️ 🔌 Welcome to EcoImpact 🔌 ♻️ 🌍")
-print("Your electronic recycling support tool")
-print("==========================================")
+print("==============================================")
+print("🌍 ♻️ 🔌 Welcome to EcoImpact - Your electronic recycling support tool! 🌍 ♻️ 🔌")
+print("==============================================")
 
-print("\nPlease read our privacy policy:\n")
+print("\nPlease read our privacy policy\n")
 
-print("We collect the following data to provide recycling recommendations:")
-print("- The item you wish to recycle")
-print("- The condition of the item")
-print("- Your location for local council recycling guidance")
+print("We collect the following data for the purpose of providing tailored recycling recommendations:")
+print("- The item you wish to recycle: This helps us guide you through the appropriate disposal process.")
+print("- The condition of the item: Used to give specific advice on recycling, donating, repairing or selling.")
+print("- Your location: We use this to provide local council guidelines for recycling and disposal.")
 
 print("\nWe do not store or share your personal data with third parties.")
-print("Your data is only used during this session.")
-print("For questions about data protection, contact:")
-print("support@ecoimpact.co.uk")
+print("Your data is only used during the session and will not be retained after the session ends.")
+print("For any questions about data protection, please contact us at support@ecoimpact.co.uk")
 
-print("\nBy proceeding, you agree to this privacy policy.\n")
+print("\nBy proceeding, you agree to this privacy policy.")
 
-print("------------------------------------------")
+print("\n==============================================")
 
 another_device = "yes"
 
 while another_device.lower() == "yes":
 
     # Find out user location
-    borough = input("\nEnter your local borough: ").lower()
+    borough = input("\nEnter your local borough:\n").lower()
 
     # Give advice based on user location
-    if borough in ["southwark", "lambeth", "lewisham", "tower hamlets"]:
-        print("\n✅ We support this borough.")
-        print("Your local council recycling guidelines will be provided.")
+    if borough == "southwark" or borough == "lambeth" or borough == "lewisham" or borough == "tower hamlets":
+        print("\n----------------------------------------------")
+        print("✅ We support this borough.")
+        print("Your local council's guidelines will be provided.")
+        print("----------------------------------------------")
+
     else:
-        print("\n❌ We do not currently support this borough.")
+        print("\n----------------------------------------------")
+        print("❌ We do not currently support this borough.")
         print("We are working hard to cover more areas.")
+        print("----------------------------------------------")
         exit()
 
-    # Show devices available
-    print("\n------------------------------------------")
-    print("Devices we currently recycle:")
+
+    # Show list of devices
+    print("\n----------------------------------------------")
+    print("Here is our current list of devices we recycle:")
     print("- Laptops")
     print("- Computers")
     print("- Mobiles")
     print("- Printers")
-    print("------------------------------------------")
+    print("----------------------------------------------")
 
-    device = input("\nWhat type of electronic device do you want to recycle? ").lower()
+    device = input("\nWhat type of electronic device do you want to recycle?\n").lower()
 
-    # Give advice based on device
-    if device in ["laptop", "laptops"]:
-        print("\n💻 Laptops can be recycled at your local IT recycling centre.")
-    elif device in ["computer", "computers"]:
-        print("\n🖥️ Computers can be recycled at your local IT recycling centre.")
-    elif device in ["mobile", "mobiles"]:
-        print("\n📱 Mobile phones can be recycled, donated, or sold safely.")
-    elif device in ["printer", "printers"]:
-        print("\n🖨️ Printers can be recycled at electronics recycling points.")
+
+    # Give advice based on electronic item
+    if device == "laptop" or device == "laptops":
+        print("\n----------------------------------------------")
+        print("💻 You can recycle laptops at your local IT recycling centre.")
+        print("----------------------------------------------")
+
+    elif device == "computer" or device == "computers":
+        print("\n----------------------------------------------")
+        print("🖥️ You can recycle computers at your local IT recycling centre.")
+        print("----------------------------------------------")
+
+    elif device == "mobile" or device == "mobiles":
+        print("\n----------------------------------------------")
+        print("📱 Mobile phones can be recycled, donated, or sold safely after wiping personal data.")
+        print("----------------------------------------------")
+
+    elif device == "printer" or device == "printers":
+        print("\n----------------------------------------------")
+        print("🖨️ Printers can be recycled at electronics recycling points.")
+        print("----------------------------------------------")
+
     else:
-        print("\nSorry, we only provide guidance for laptops, computers, mobiles and printers.")
+        print("\n----------------------------------------------")
+        print("Sorry, we only provide guidance for laptops, computers, mobiles and printers.")
+        print("----------------------------------------------")
 
-    # Ask condition
-    condition = input("\nWhat is the condition of the device?\nWorking, Damaged, Broken or Faulty: ").lower()
 
-    if condition in ["working", "works"]:
-        print("\nThis item may be suitable for donation or selling.")
-    elif condition in ["faulty", "broken"]:
-        print("\nThis item may be suitable for repair.")
-    elif condition in ["damaged", "damage"]:
-        print("\nThis item can be recycled for parts.")
+    # Ask condition of device
+    condition = input("\nWhat is the condition of the device?\nWorking, Damaged, Broken or Faulty:\n").lower()
+
+
+    # Give advice based on condition
+    if condition == "working" or condition == "works":
+        print("\n----------------------------------------------")
+        print("This item may be eligible to be donated or sold.")
+        print("----------------------------------------------")
+
+    elif condition == "faulty" or condition == "broken":
+        print("\n----------------------------------------------")
+        print("This item may be eligible for repair.")
+        print("----------------------------------------------")
+
+    elif condition == "damaged" or condition == "damage":
+        print("\n----------------------------------------------")
+        print("This item can be recycled for parts.")
+        print("----------------------------------------------")
+
     else:
-        print("\nPlease enter a valid condition.")
+        print("\n----------------------------------------------")
+        print("Please use a valid condition.")
+        print("----------------------------------------------")
 
-    # Disposal choice
-    disposal = input("\nHow do you want to dispose of your item?\nRecycle, Donate, Repair or Sell: ").lower()
 
+    # Ask disposal choice
+    disposal = input("\nHow do you want to dispose of your item?\nRecycle, Donate, Repair or Sell:\n").lower()
+
+
+    # Give options based on disposal choice
     if disposal == "recycle":
-        print("\nYour item will be prepared for recycling.")
+        print("\n----------------------------------------------")
+        print("♻️ Your item will be prepared for recycling.")
+        print("----------------------------------------------")
+
     elif disposal == "donate":
-        print("\nYour item will be donated to Little Lives UK.")
+        print("\n----------------------------------------------")
+        print("💚 Your item will be donated to Little Lives UK.")
+        print("----------------------------------------------")
+
     elif disposal == "repair":
-        print("\nYour item will be assessed for repair options.")
+        print("\n----------------------------------------------")
+        print("🔧 Your item will be assessed for repair options.")
+        print("----------------------------------------------")
+
     elif disposal == "sell":
-        print("\nYour item may be suitable for selling.")
+        print("\n----------------------------------------------")
+        print("💰 Your item may be suitable for selling.")
+        print("----------------------------------------------")
+
     else:
-        print("\nPlease choose a valid disposal option.")
+        print("\n----------------------------------------------")
+        print("Please use a valid disposal option.")
+        print("----------------------------------------------")
 
-    another_device = input("\nDo you have another device you wish to recycle? Yes or No: ")
 
-print("\n==========================================")
-print("Thank you for using EcoImpact! 🌱")
-print("Have a lovely day 😊")
-print("==========================================")
+    # Ask if user has another device
+    another_device = input("\nDo you have another device you wish to recycle? Yes or No:\n")
+
+
+print("\n==============================================")
+print("Thank you for using EcoImpact.")
+print("Have a lovely day! 😊")
+print("==============================================")
