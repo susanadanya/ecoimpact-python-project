@@ -20,12 +20,14 @@ The project focuses on encouraging responsible recycling by providing users with
 - Python 3
 
 ## Skills Demonstrated
-- Variables and data types
-- User input
-- Conditional statements (if/elif/else)
-- Problem-solving
-- Debugging
-- Basic software development practices
+- Python Programming
+- User Input Handling
+- Variables and Data Types
+- Conditional Statements (if/elif/else)
+- Input Validation
+- Problem Solving
+- Environmental Awareness (WEEE Recycling)
+- GitHub Documentation
 
 ## Future Improvements
 - Add a graphical user interface (GUI)
@@ -45,7 +47,6 @@ The project focuses on encouraging responsible recycling by providing users with
 ![Recycling Recommendation](https://github.com/susanadanya/ecoimpact-python-project/blob/main/Screenshots/03-recycling-result.png)
 
 ## How to Run This Project
-
 1. Download or clone this repository.
 2. Open the project folder.
 3. Run the Python file:
