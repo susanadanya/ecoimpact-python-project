@@ -43,3 +43,15 @@ The project focuses on encouraging responsible recycling by providing users with
 
 ### Recycling Recommendation
 ![Recycling Recommendation](https://github.com/susanadanya/ecoimpact-python-project/blob/main/Screenshots/03-recycling-result.png)
+
+## How to Run This Project
+
+1. Download or clone this repository.
+2. Open the project folder.
+3. Run the Python file:
+
+```python
+python ecodimpact.py
+```
+
+4. Follow the on-screen prompts to receive recycling guidance.
